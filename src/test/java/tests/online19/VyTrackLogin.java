@@ -25,7 +25,6 @@ public class VyTrackLogin {
         UserNameLocator.sendKeys(Vy_Main_Username);
         PasswordLocator.sendKeys(Vy_Main_Password);
         LoginBox.click();
-        //driver.findElement(By.name("_submit")).click();
         String WebUrl=driver.getCurrentUrl();
         String Title=driver.getTitle();
         System.out.println(WebUrl);
