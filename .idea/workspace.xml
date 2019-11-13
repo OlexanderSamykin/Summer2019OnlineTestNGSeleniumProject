@@ -2,49 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eee0814d-aaae-4051-80a7-0e57b8c78675" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/btrix24/login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day6/AbsoluteXpathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day6/BitrixLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day7/AnnotationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day7/CssSelectorPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day7/MultipleButtonsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day7/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day7/TestNGPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day7/WarmUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/online19/LoginNegativeTesting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/online19/VyTrackLoginNegativeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/online19/VyTrackLoginNegativeTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/vasyl_homework_11_1_19/Test1PracticeCybertekschoolSignUpTestCase1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/vasyl_homework_11_1_19/Test2TheSizeMatters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/vasyl_homework_11_1_19/Test3MultipleButtons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/vasyl_homework_11_1_19/Test4NegativeRegistrationFormFirstName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/vasyl_homework_11_1_19/Test5NegativeRegistrationFormLastName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/vasyl_homework_11_1_19/Test6UserName6CharactersAtLeast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/StringUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/btrix24/login.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/day6/AbsoluteXpathTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/day6/BitrixLogin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/day7/AnnotationTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/day7/CssSelectorPractice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/day7/MultipleButtonsTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/day7/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/day7/TestNGPractice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/day7/WarmUp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/online19/LoginNegativeTesting.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/online19/VyTrackLoginNegativeTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/online19/VyTrackLoginNegativeTest1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/vasyl_homework_11_1_19/Test1PracticeCybertekschoolSignUpTestCase1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/vasyl_homework_11_1_19/Test2TheSizeMatters.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/vasyl_homework_11_1_19/Test3MultipleButtons.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/vasyl_homework_11_1_19/Test4NegativeRegistrationFormFirstName.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/vasyl_homework_11_1_19/Test5NegativeRegistrationFormLastName.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/vasyl_homework_11_1_19/Test6UserName6CharactersAtLeast.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/utils/StringUtility.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/online19/VyTrackLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/online19/VyTrackLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/online19/VyTrackLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/online19/VyTrackLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/btrix24/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/btrix24/login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/btrix24/login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/btrix24/login.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.login.loginSuccessfully">
+  <component name="RunManager" selected="TestNG.login (1)">
     <configuration name="NavigationPractice" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tests.day3.NavigationPractice" />
       <module name="Summer2019OnlineTestNGSeleniumProject" />
@@ -136,23 +96,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnnotationTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Summer2019OnlineTestNGSeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day7" />
-      <option name="MAIN_CLASS_NAME" value="tests.day7.AnnotationTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MultipleButtonsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Summer2019OnlineTestNGSeleniumProject" />
       <extension name="coverage">
@@ -163,6 +106,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests.day7" />
       <option name="MAIN_CLASS_NAME" value="tests.day7.MultipleButtonsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="login (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Summer2019OnlineTestNGSeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.btrix24.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.btrix24" />
+      <option name="MAIN_CLASS_NAME" value="tests.btrix24.login" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -207,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.login (1)" />
         <item itemvalue="TestNG.login.loginSuccessfully" />
         <item itemvalue="TestNG.login" />
         <item itemvalue="Application.Test" />
         <item itemvalue="TestNG.MultipleButtonsTest" />
-        <item itemvalue="TestNG.AnnotationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -226,6 +186,14 @@
       <option name="presentableId" value="Default" />
       <updated>1571171411810</updated>
     </task>
+    <task id="LOCAL-00001" summary="ok">
+      <created>1573676943800</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573676943800</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,5 +208,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="ok" />
   </component>
 </project>
