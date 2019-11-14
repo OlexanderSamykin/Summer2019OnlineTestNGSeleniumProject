@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eee0814d-aaae-4051-80a7-0e57b8c78675" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/vasyl_homework_11_1_19/Test8PhoneNumberFormat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/vasyl_homework_11_1_19/Test6UserName6CharactersAtLeast.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/vasyl_homework_11_1_19/Test6UserName6CharactersAtLeast.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test7EmailFormat">
+  <component name="RunManager" selected="Application.Test8PhoneNumberFormat">
     <configuration name="NavigationPractice" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tests.day3.NavigationPractice" />
       <module name="Summer2019OnlineTestNGSeleniumProject" />
@@ -97,6 +97,19 @@
     </configuration>
     <configuration name="Test7EmailFormat" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tests.vasyl_homework_11_1_19.Test7EmailFormat" />
+      <module name="Summer2019OnlineTestNGSeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.vasyl_homework_11_1_19.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test8PhoneNumberFormat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tests.vasyl_homework_11_1_19.Test8PhoneNumberFormat" />
       <module name="Summer2019OnlineTestNGSeleniumProject" />
       <extension name="coverage">
         <pattern>
@@ -162,6 +175,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test8PhoneNumberFormat" />
         <item itemvalue="Application.Test6UserName6CharactersAtLeast" />
         <item itemvalue="TestNG.login.inValidLogin" />
         <item itemvalue="TestNG.login (2)" />
@@ -208,7 +222,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573710050640</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ok">
+      <created>1573712043608</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1573712043608</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ok">
+      <created>1573712129634</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1573712129634</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
