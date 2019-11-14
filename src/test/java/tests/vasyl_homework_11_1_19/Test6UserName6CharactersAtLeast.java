@@ -18,18 +18,20 @@ public class Test6UserName6CharactersAtLeast {
 
         String ExpextedResult = "The username must be more than 6 and less than 30 characters long";
 
-        WebElement RegistrationFormInputBox = driver.findElement(By.xpath("/html/body/div/div[2]/div/ul/li[40]/a"));
+        //WebElement RegistrationFormInputBox = driver.findElement(By.xpath("/html/body/div/div[2]/div/ul/li[40]/a"));
+        WebElement RegistrationFormInputBox = driver.findElement(By.xpath("//a[.='Registration Form']"));
         RegistrationFormInputBox.click();
 
         WebElement RegistrationUserNameInputBox = driver.findElement(By.xpath("//input[@placeholder='username']"));
                 RegistrationUserNameInputBox.sendKeys("user");
-        //WebElement FailedUserNameInputNotification =
-                //String ActualResult = FailedUserNameInputNotification.getText();
+        WebElement FailedUserNameInputNotification = driver.findElement(By.xpath("//*[contains(@data-bv-result,'INVALID')]"));
+                String ActualResult = FailedUserNameInputNotification.getText();
 
 
-        //StringUtility.verifyEquals();
+        StringUtility.verifyEquals(ExpextedResult,ActualResult);
 
 
+        driver.quit();
 
     }
 

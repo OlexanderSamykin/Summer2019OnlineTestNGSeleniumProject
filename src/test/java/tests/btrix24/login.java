@@ -1,5 +1,6 @@
 package tests.btrix24;
 
+import com.github.javafaker.Faker;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -51,14 +52,22 @@ public class login {
 
     @Test
     public void inValidLogin() {
-        System.out.println("Invalid ");
+        WebElement username = driver.findElement(By.name("USER_LOGIN"));
+        Faker dommyData = new Faker();
+        String name = dommyData.name().firstName();
+        username.sendKeys(name);
+        driver.findElement(By.name("USER_PASSWORD")).sendKeys(dommyData.animal().name());
+        driver.findElement(By.className("login-btn")).click();
+        //verify the error message
+        String expectedMessage = "Incorrect login or password";
+        //    WebElement errorMessage = driver.findElement(By.className("errortext"));
+        String actualMessage = driver.findElement(By.className("errortext")).getText();
+        Assert.assertEquals(actualMessage, expectedMessage);
     }
 
     @AfterMethod
-    public void TearDown() {
-
+    public void tearDown() {
         driver.quit();
     }
 
 }
-
