@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eee0814d-aaae-4051-80a7-0e57b8c78675" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/vasyl_homework_11_1_19/Test6UserName6CharactersAtLeast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/vasyl_homework_11_1_19/Test6UserName6CharactersAtLeast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/vasyl_homework_11_1_19/Test6UserName6CharactersAtLeast.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/vasyl_homework_11_1_19/Test6UserName6CharactersAtLeast.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test6UserName6CharactersAtLeast">
+  <component name="RunManager" selected="Application.Test7EmailFormat">
     <configuration name="NavigationPractice" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tests.day3.NavigationPractice" />
       <module name="Summer2019OnlineTestNGSeleniumProject" />
@@ -84,6 +84,19 @@
     </configuration>
     <configuration name="Test6UserName6CharactersAtLeast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tests.vasyl_homework_11_1_19.Test6UserName6CharactersAtLeast" />
+      <module name="Summer2019OnlineTestNGSeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.vasyl_homework_11_1_19.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test7EmailFormat" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tests.vasyl_homework_11_1_19.Test7EmailFormat" />
       <module name="Summer2019OnlineTestNGSeleniumProject" />
       <extension name="coverage">
         <pattern>
@@ -147,31 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="login.loginSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Summer2019OnlineTestNGSeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.btrix24.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.btrix24" />
-      <option name="MAIN_CLASS_NAME" value="tests.btrix24.login" />
-      <option name="METHOD_NAME" value="loginSuccessfully" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test6UserName6CharactersAtLeast" />
         <item itemvalue="TestNG.login.inValidLogin" />
         <item itemvalue="TestNG.login (2)" />
         <item itemvalue="TestNG.login (1)" />
-        <item itemvalue="TestNG.login.loginSuccessfully" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573709039562</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ok">
+      <created>1573710050640</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573710050640</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
