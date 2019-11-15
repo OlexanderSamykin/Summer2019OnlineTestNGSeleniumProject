@@ -17,7 +17,6 @@ public class Test8PhoneNumberFormat {
         Thread.sleep(4000);
 
         String ExpextedResult = "Phone format is not correct";
-
         WebElement RegistrationFormInputBox = driver.findElement(By.xpath("//a[.='Registration Form']"));
         RegistrationFormInputBox.click();
 
