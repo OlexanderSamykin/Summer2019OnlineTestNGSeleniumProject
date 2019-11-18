@@ -31,27 +31,20 @@ public class login {
         driver.get("https://login1.nextbasecrm.com/");
     }
 
-    @Test
-    public void loginSuccessfully() {
+    @Test(priority=1)
+    public void LoginSuccessfully() {
         WebElement username = driver.findElement(By.name("USER_LOGIN"));
-        username.sendKeys("helpdesk7@cybertekschool.com");
+        username.sendKeys("marketing61@cybertekschool.com");
         driver.findElement(By.name("USER_PASSWORD")).sendKeys("UserUser");
         driver.findElement(By.className("login-btn")).click();
         String expectedTitle = "Portal";
         String actualTitle = driver.getTitle();
-//        if(expectedTitle.equals(actualTitle)){
-//            System.out.println("PASS");
-//        }else {
-//            System.out.println("FAIL");
-//            System.out.println("Expected titile " + expectedTitle);
-//            System.out.println("Actual titile " + expectedTitle);
-//        }
         Assert.assertEquals(actualTitle, expectedTitle);
         Assert.assertEquals(driver.getTitle(), "Portal");
     }
 
-    @Test
-    public void inValidLogin() {
+    @Test(priority=2)
+    public void InvalidLogin() {
         WebElement username = driver.findElement(By.name("USER_LOGIN"));
         Faker dommyData = new Faker();
         String name = dommyData.name().firstName();
@@ -60,14 +53,14 @@ public class login {
         driver.findElement(By.className("login-btn")).click();
         //verify the error message
         String expectedMessage = "Incorrect login or password";
-        //    WebElement errorMessage = driver.findElement(By.className("errortext"));
-        String actualMessage = driver.findElement(By.className("errortext")).getText();
+        WebElement errorMessage = driver.findElement(By.className("errortext"));
+        String actualMessage = errorMessage.getText();
         Assert.assertEquals(actualMessage, expectedMessage);
     }
 
     @AfterMethod
     public void tearDown() {
         driver.quit();
-    }
+     }
 
 }
