@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eee0814d-aaae-4051-80a7-0e57b8c78675" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/btrix24/SendAMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day10/WindowSwitching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day9/LocatorsReview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day9/TestNGReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day10/PopUpPractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/btrix24/SendMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/btrix24/SendMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/btrix24/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/btrix24/login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/btrix24/login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/btrix24/login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day8/RadioButtons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day8/RadioButtons.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.WindowSwitching.test2">
+  <component name="RunManager" selected="TestNG.JSExecutorPractice (1)">
     <configuration name="NavigationPractice" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tests.day3.NavigationPractice" />
       <module name="Summer2019OnlineTestNGSeleniumProject" />
@@ -101,34 +96,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WindowSwitching.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ActionsClassHoverPractice.test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Summer2019OnlineTestNGSeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day10.*" />
+          <option name="PATTERN" value="tests.day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day10" />
-      <option name="MAIN_CLASS_NAME" value="tests.day10.WindowSwitching" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WindowSwitching.test2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Summer2019OnlineTestNGSeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day10" />
-      <option name="MAIN_CLASS_NAME" value="tests.day10.WindowSwitching" />
+      <option name="PACKAGE_NAME" value="tests.day12" />
+      <option name="MAIN_CLASS_NAME" value="tests.day12.ActionsClassHoverPractice" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -137,16 +114,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="login" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DragAndDropPractice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Summer2019OnlineTestNGSeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.btrix24.*" />
+          <option name="PATTERN" value="tests.day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.btrix24" />
-      <option name="MAIN_CLASS_NAME" value="tests.btrix24.login" />
+      <option name="PACKAGE_NAME" value="tests.day12" />
+      <option name="MAIN_CLASS_NAME" value="tests.day12.DragAndDropPractice" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -154,17 +131,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="login.InvalidLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DragAndDropPractice.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Summer2019OnlineTestNGSeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.btrix24.*" />
+          <option name="PATTERN" value="tests.day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.btrix24" />
-      <option name="MAIN_CLASS_NAME" value="tests.btrix24.login" />
-      <option name="METHOD_NAME" value="InvalidLogin" />
+      <option name="PACKAGE_NAME" value="tests.day12" />
+      <option name="MAIN_CLASS_NAME" value="tests.day12.DragAndDropPractice" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -172,18 +149,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="login.loginSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JSExecutorPractice (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Summer2019OnlineTestNGSeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.btrix24.*" />
+          <option name="PATTERN" value="tests.day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.btrix24" />
-      <option name="MAIN_CLASS_NAME" value="tests.btrix24.login" />
-      <option name="METHOD_NAME" value="loginSuccessfully" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="tests.day12" />
+      <option name="MAIN_CLASS_NAME" value="tests.day12.JSExecutorPractice" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JSExecutorPractice" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Summer2019OnlineTestNGSeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day12" />
+      <option name="MAIN_CLASS_NAME" value="tests.day12.JSExecutorPractice" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -192,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.WindowSwitching.test2" />
-        <item itemvalue="TestNG.WindowSwitching.test1" />
-        <item itemvalue="TestNG.login" />
-        <item itemvalue="TestNG.login.InvalidLogin" />
-        <item itemvalue="TestNG.login.loginSuccessfully" />
+        <item itemvalue="TestNG.JSExecutorPractice (1)" />
+        <item itemvalue="TestNG.JSExecutorPractice" />
+        <item itemvalue="TestNG.DragAndDropPractice" />
+        <item itemvalue="TestNG.DragAndDropPractice.test1" />
+        <item itemvalue="TestNG.ActionsClassHoverPractice.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573795712389</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ok">
+      <created>1574109275927</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1574109275927</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

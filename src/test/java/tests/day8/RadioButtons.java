@@ -21,42 +21,42 @@ public class RadioButtons {
 //        linkText works only with <a> elements
 //        link text only in between >Text<
 //        this is step is common for all test cases
-        driver.findElement(By.linkText("Radio Buttons")).click();
-    }
-    @Test(description = "Verify that blue button is selected")
-    public void test1() {
-        //find blue radio button
-        WebElement blueButton = driver.findElement(By.id("blue"));
-        //let's verify that radio button is selected
-        //assert true that button is selected
-        //if button is selected it will return true, otherwise false
-        boolean isSelected = blueButton.isSelected();
-        Assert.assertTrue(isSelected); // will expected that isSelected is true
-    }
-    @Test(description = "Verify that red button is not selected")
-    public void test2() {
-        WebElement redButton = driver.findElement(By.id("red"));
-        //isSelected() will return tru if button already clicked
-        Assert.assertFalse(redButton.isSelected()); // assertFalse will expect that condition is false
-    }
-    @Test(description = "Verify that green button is not clickable")
-    public void test3() {
-        WebElement greenButton = driver.findElement(By.id("green"));
-        // isEnabled() will return true if button is available for interaction
-        //that means you can click on it, in this case
-        Assert.assertFalse(greenButton.isEnabled());
-    }
-    //let's find all radio buttons and click on them one by one
-    @Test(description = "Click on all radio buttons")
-    public void test4() {
-        //how to find all radio buttons?
-        //find all radio buttons
-        //any radio button will have type='radio' and input as a element type
-        List<WebElement> radioButtons = driver.findElements(By.cssSelector("input[type='radio']"));
+                driver.findElement(By.linkText("Radio Buttons")).click();
+            }
+            @Test(description = "Verify that blue button is selected")
+            public void test1() {
+                //find blue radio button
+                WebElement blueButton = driver.findElement(By.id("blue"));
+                //let's verify that radio button is selected
+                //assert true that button is selected
+                //if button is selected it will return true, otherwise false
+                boolean isSelected = blueButton.isSelected();
+                Assert.assertTrue(isSelected); // will expected that isSelected is true
+            }
+            @Test(description = "Verify that red button is not selected")
+            public void test2() {
+                WebElement redButton = driver.findElement(By.id("red"));
+                //isSelected() will return tru if button already clicked
+                Assert.assertFalse(redButton.isSelected()); // assertFalse will expect that condition is false
+            }
+            @Test(description = "Verify that green button is not clickable")
+            public void test3() {
+                WebElement greenButton = driver.findElement(By.id("green"));
+                // isEnabled() will return true if button is available for interaction
+                //that means you can click on it, in this case
+                Assert.assertFalse(greenButton.isEnabled());
+            }
+            //let's find all radio buttons and click on them one by one
+            @Test(description = "Click on all radio buttons")
+            public void test4() {
+                //how to find all radio buttons?
+                //find all radio buttons
+                //any radio button will have type='radio' and input as a element type
+                List<WebElement> radioButtons = driver.findElements(By.cssSelector("input[type='radio']"));
 //        let's click only if button is not clicked and is available for clicking
-        for (WebElement button : radioButtons) {
+                for (WebElement button : radioButtons) {
 //            if button is available for clicking and not clicked yet
-            if (button.isEnabled() && !button.isSelected()) {
+                    if (button.isEnabled() && !button.isSelected()) {
 //                then click on it
                 button.click();
 //                in this case, id attribute represents a name of the color
