@@ -75,12 +75,13 @@ public class CalendarEventsTests3 {
         }
         int ActualSize = elements.size();
         System.out.println(ActualSize);
-        WebElement TotalOfRecords = driver.findElement(By.xpath("//label[contains(text(),'Total of 21 records')]"));
+        WebElement TotalOfRecords = driver.findElement(By.xpath("//label[contains(text(),'Total of 19 records')]"));
         //System.out.println(TotalOfRecords.getText());
         String ExpectedString = "Total Of "+ActualSize+" Records";
         String ActualString = TotalOfRecords.getText();
         Assert.assertTrue(ExpectedString.equals(ActualString));
     }
+
 
     @Test(description = "Verify that all calendar events were selected")
     public void test5() {

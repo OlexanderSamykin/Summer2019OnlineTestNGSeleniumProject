@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eee0814d-aaae-4051-80a7-0e57b8c78675" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day13/WebTablesPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day14/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/vytrack/CalendarEventsTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/vytrack/CalendarEventsTests3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/vytrack/CalendarEventsTests3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/vytrack/CalendarEventsTests3.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +58,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CalendarEventsTests3.test6">
+  <component name="RunManager" selected="TestNG.CalendarEventsTests3">
     <configuration name="NavigationPractice" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tests.day3.NavigationPractice" />
       <module name="Summer2019OnlineTestNGSeleniumProject" />
@@ -119,6 +116,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalendarEventsTests3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Summer2019OnlineTestNGSeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.vytrack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.vytrack" />
+      <option name="MAIN_CLASS_NAME" value="tests.vytrack.CalendarEventsTests3" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalendarEventsTests3.test4" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Summer2019OnlineTestNGSeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.vytrack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.vytrack" />
+      <option name="MAIN_CLASS_NAME" value="tests.vytrack.CalendarEventsTests3" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalendarEventsTests3.test5" type="TestNG" nameIsGenerated="true">
       <module name="Summer2019OnlineTestNGSeleniumProject" />
       <extension name="coverage">
@@ -148,41 +180,6 @@
       <option name="PACKAGE_NAME" value="tests.vytrack" />
       <option name="MAIN_CLASS_NAME" value="tests.vytrack.CalendarEventsTests3" />
       <option name="METHOD_NAME" value="test6" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Summer2019OnlineTestNGSeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day14" />
-      <option name="MAIN_CLASS_NAME" value="tests.day14.LoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.test1 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Summer2019OnlineTestNGSeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day14" />
-      <option name="MAIN_CLASS_NAME" value="tests.day14.LoginTest" />
-      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -227,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CalendarEventsTests3" />
+        <item itemvalue="TestNG.CalendarEventsTests3.test4" />
         <item itemvalue="TestNG.WebTablesPractice" />
         <item itemvalue="TestNG.AutomationScripts.test1" />
         <item itemvalue="TestNG.LoginTest.test2" />
-        <item itemvalue="TestNG.LoginTest.test1 (1)" />
-        <item itemvalue="TestNG.LoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -365,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574371612729</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="ok">
+      <created>1575003809211</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1575003809211</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
