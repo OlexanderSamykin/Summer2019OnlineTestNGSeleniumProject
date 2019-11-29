@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eee0814d-aaae-4051-80a7-0e57b8c78675" name="Default Changelist" comment="" />
+    <list default="true" id="eee0814d-aaae-4051-80a7-0e57b8c78675" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day13/WebTablesPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day14/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/vytrack/CalendarEventsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/vytrack/CalendarEventsTests3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +38,12 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests.day14" />
+      <recent name="tests.vytrack" />
       <recent name="tests.day3" />
       <recent name="tests.basicnavigation.day3" />
       <recent name="tests.day2" />
@@ -52,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.JSExecutorPractice (1)">
+  <component name="RunManager" selected="TestNG.CalendarEventsTests3.test6">
     <configuration name="NavigationPractice" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tests.day3.NavigationPractice" />
       <module name="Summer2019OnlineTestNGSeleniumProject" />
@@ -92,51 +101,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActionsClassHoverPractice.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AutomationScripts.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Summer2019OnlineTestNGSeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day12.*" />
+          <option name="PATTERN" value="tests.november_27.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day12" />
-      <option name="MAIN_CLASS_NAME" value="tests.day12.ActionsClassHoverPractice" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DragAndDropPractice" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Summer2019OnlineTestNGSeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day12" />
-      <option name="MAIN_CLASS_NAME" value="tests.day12.DragAndDropPractice" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DragAndDropPractice.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Summer2019OnlineTestNGSeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day12" />
-      <option name="MAIN_CLASS_NAME" value="tests.day12.DragAndDropPractice" />
+      <option name="PACKAGE_NAME" value="tests.november_27" />
+      <option name="MAIN_CLASS_NAME" value="tests.november_27.AutomationScripts" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -145,16 +119,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JSExecutorPractice (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CalendarEventsTests3.test5" type="TestNG" nameIsGenerated="true">
       <module name="Summer2019OnlineTestNGSeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day12.*" />
+          <option name="PATTERN" value="tests.vytrack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day12" />
-      <option name="MAIN_CLASS_NAME" value="tests.day12.JSExecutorPractice" />
+      <option name="PACKAGE_NAME" value="tests.vytrack" />
+      <option name="MAIN_CLASS_NAME" value="tests.vytrack.CalendarEventsTests3" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalendarEventsTests3.test6" type="TestNG" nameIsGenerated="true">
+      <module name="Summer2019OnlineTestNGSeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.vytrack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.vytrack" />
+      <option name="MAIN_CLASS_NAME" value="tests.vytrack.CalendarEventsTests3" />
+      <option name="METHOD_NAME" value="test6" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Summer2019OnlineTestNGSeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day14" />
+      <option name="MAIN_CLASS_NAME" value="tests.day14.LoginTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -162,16 +172,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JSExecutorPractice" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.test1 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Summer2019OnlineTestNGSeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day12.*" />
+          <option name="PATTERN" value="tests.day14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day12" />
-      <option name="MAIN_CLASS_NAME" value="tests.day12.JSExecutorPractice" />
+      <option name="PACKAGE_NAME" value="tests.day14" />
+      <option name="MAIN_CLASS_NAME" value="tests.day14.LoginTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Summer2019OnlineTestNGSeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day14" />
+      <option name="MAIN_CLASS_NAME" value="tests.day14.LoginTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTablesPractice" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Summer2019OnlineTestNGSeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day13" />
+      <option name="MAIN_CLASS_NAME" value="tests.day13.WebTablesPractice" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -181,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.JSExecutorPractice (1)" />
-        <item itemvalue="TestNG.JSExecutorPractice" />
-        <item itemvalue="TestNG.DragAndDropPractice" />
-        <item itemvalue="TestNG.DragAndDropPractice.test1" />
-        <item itemvalue="TestNG.ActionsClassHoverPractice.test2" />
+        <item itemvalue="TestNG.WebTablesPractice" />
+        <item itemvalue="TestNG.AutomationScripts.test1" />
+        <item itemvalue="TestNG.LoginTest.test2" />
+        <item itemvalue="TestNG.LoginTest.test1 (1)" />
+        <item itemvalue="TestNG.LoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574371597339</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="ok">
+      <created>1574371612729</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1574371612729</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
