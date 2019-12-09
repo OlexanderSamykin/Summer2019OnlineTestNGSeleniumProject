@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eee0814d-aaae-4051-80a7-0e57b8c78675" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/vytrack/SmokeTest.java" afterDir="false" />
+    <list default="true" id="eee0814d-aaae-4051-80a7-0e57b8c78675" name="Default Changelist" comment="ok">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/CreateCarPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/VehiclesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages1/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/homework2/Homework2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ncd_tests/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ncd_tests/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ncdpackage/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/vytrack/CreateCarTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/test1-2019-12-08-03-49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/report1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/report2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Summer2019OnlineTestNGSeleniumProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Summer2019OnlineTestNGSelenium.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/hw_vytrack_calendar_events_page/CalendarEvents12TestsCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/hw_vytrack_calendar_events_page/CalendarEvents12TestsCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/vytrack/SmokeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/vytrack/SmokeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/BrowserUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/BrowserUtils.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +47,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1SFtwlcKb4oq3ciYWcA5Zb9zZHi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -39,11 +59,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests.ncd_tests" />
+      <recent name="tests.ncdpackage" />
       <recent name="tests.homework" />
       <recent name="tests.vytrack" />
       <recent name="utils" />
-      <recent name="tests.hw_synchronization_checkboxes_locators_6_test_cases" />
-      <recent name="tests.day14" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -58,10 +78,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CalendarEvents12TestsCases.TestCase5">
+  <component name="RunManager" selected="TestNG.CalendarEvents12TestsCases.test1">
     <configuration name="NavigationPractice" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tests.day3.NavigationPractice" />
-      <module name="Summer2019OnlineTestNGSeleniumProject" />
+      <module name="Summer2019OnlineTestNGSelenium" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.day3.*" />
@@ -74,7 +94,7 @@
     </configuration>
     <configuration name="PracticeCybertekschool" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tests.vasyl_homework_11_1_19.PracticeCybertekschool" />
-      <module name="Summer2019OnlineTestNGSeleniumProject" />
+      <module name="Summer2019OnlineTestNGSelenium" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.vasyl_homework_11_1_19.*" />
@@ -87,7 +107,7 @@
     </configuration>
     <configuration name="Test7EmailFormat" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tests.vasyl_homework_11_1_19.Test7EmailFormat" />
-      <module name="Summer2019OnlineTestNGSeleniumProject" />
+      <module name="Summer2019OnlineTestNGSelenium" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.vasyl_homework_11_1_19.*" />
@@ -98,61 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalendarEvents12TestsCases" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Summer2019OnlineTestNGSeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.hw_vytrack_calendar_events_page.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.hw_vytrack_calendar_events_page" />
-      <option name="MAIN_CLASS_NAME" value="tests.hw_vytrack_calendar_events_page.CalendarEvents12TestsCases" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalendarEvents12TestsCases.TestCase10" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Summer2019OnlineTestNGSeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.hw_vytrack_calendar_events_page.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.hw_vytrack_calendar_events_page" />
-      <option name="MAIN_CLASS_NAME" value="tests.hw_vytrack_calendar_events_page.CalendarEvents12TestsCases" />
-      <option name="METHOD_NAME" value="TestCase10" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalendarEvents12TestsCases.TestCase5" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Summer2019OnlineTestNGSeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.hw_vytrack_calendar_events_page.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.hw_vytrack_calendar_events_page" />
-      <option name="MAIN_CLASS_NAME" value="tests.hw_vytrack_calendar_events_page.CalendarEvents12TestsCases" />
-      <option name="METHOD_NAME" value="TestCase5" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CalendarEvents12TestsCases.TestCase6" type="TestNG" nameIsGenerated="true">
-      <module name="Summer2019OnlineTestNGSeleniumProject" />
+      <module name="Summer2019OnlineTestNGSelenium" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.hw_vytrack_calendar_events_page.*" />
@@ -170,7 +137,7 @@
       </method>
     </configuration>
     <configuration name="CalendarEvents12TestsCases.TestCase7" type="TestNG" nameIsGenerated="true">
-      <module name="Summer2019OnlineTestNGSeleniumProject" />
+      <module name="Summer2019OnlineTestNGSelenium" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.hw_vytrack_calendar_events_page.*" />
@@ -187,26 +154,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalendarEvents12TestsCases.TestCase9" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Summer2019OnlineTestNGSeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.hw_vytrack_calendar_events_page.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.hw_vytrack_calendar_events_page" />
-      <option name="MAIN_CLASS_NAME" value="tests.hw_vytrack_calendar_events_page.CalendarEvents12TestsCases" />
-      <option name="METHOD_NAME" value="TestCase9" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CalendarEvents12TestsCases.test1" type="TestNG" nameIsGenerated="true">
-      <module name="Summer2019OnlineTestNGSeleniumProject" />
+      <module name="Summer2019OnlineTestNGSelenium" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.hw_vytrack_calendar_events_page.*" />
@@ -224,7 +173,7 @@
       </method>
     </configuration>
     <configuration name="CalendarEvents12TestsCases.testCase11" type="TestNG" nameIsGenerated="true">
-      <module name="Summer2019OnlineTestNGSeleniumProject" />
+      <module name="Summer2019OnlineTestNGSelenium" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.hw_vytrack_calendar_events_page.*" />
@@ -241,26 +190,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalendarEvents12TestsCases.testCase12" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Summer2019OnlineTestNGSeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.hw_vytrack_calendar_events_page.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.hw_vytrack_calendar_events_page" />
-      <option name="MAIN_CLASS_NAME" value="tests.hw_vytrack_calendar_events_page.CalendarEvents12TestsCases" />
-      <option name="METHOD_NAME" value="testCase12" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CalendarEventsTests3.test5" type="TestNG" nameIsGenerated="true">
-      <module name="Summer2019OnlineTestNGSeleniumProject" />
+      <module name="Summer2019OnlineTestNGSelenium" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.vytrack.*" />
@@ -278,7 +209,7 @@
       </method>
     </configuration>
     <configuration name="CalendarEventsTests3.test6" type="TestNG" nameIsGenerated="true">
-      <module name="Summer2019OnlineTestNGSeleniumProject" />
+      <module name="Summer2019OnlineTestNGSelenium" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.vytrack.*" />
@@ -295,8 +226,98 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CreateCarTests.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Summer2019OnlineTestNGSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.vytrack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.vytrack" />
+      <option name="MAIN_CLASS_NAME" value="tests.vytrack.CreateCarTests" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Homework2.test5" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Summer2019OnlineTestNGSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.homework2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.homework2" />
+      <option name="MAIN_CLASS_NAME" value="tests.homework2.Homework2" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Homework2.test9" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Summer2019OnlineTestNGSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.homework2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.homework2" />
+      <option name="MAIN_CLASS_NAME" value="tests.homework2.Homework2" />
+      <option name="METHOD_NAME" value="test9" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.test1 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Summer2019OnlineTestNGSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.ncd_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.ncd_tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ncd_tests.LoginTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Summer2019OnlineTestNGSelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.ncd_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.ncd_tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ncd_tests.LoginTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NewCalendarEventsTests.test1" type="TestNG" nameIsGenerated="true">
-      <module name="Summer2019OnlineTestNGSeleniumProject" />
+      <module name="Summer2019OnlineTestNGSelenium" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.vytrack.*" />
@@ -315,11 +336,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CalendarEvents12TestsCases.TestCase5" />
-        <item itemvalue="TestNG.CalendarEvents12TestsCases.testCase12" />
-        <item itemvalue="TestNG.CalendarEvents12TestsCases" />
-        <item itemvalue="TestNG.CalendarEvents12TestsCases.TestCase10" />
-        <item itemvalue="TestNG.CalendarEvents12TestsCases.TestCase9" />
+        <item itemvalue="TestNG.Homework2.test9" />
+        <item itemvalue="TestNG.LoginTest.test1 (1)" />
+        <item itemvalue="TestNG.LoginTest.test1" />
+        <item itemvalue="TestNG.CreateCarTests.test1" />
+        <item itemvalue="TestNG.Homework2.test5" />
       </list>
     </recent_temporary>
   </component>
@@ -474,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575615191256</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="ok">
+      <created>1575689629431</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1575689629431</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -491,6 +519,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="ok" />
     <option name="LAST_COMMIT_MESSAGE" value="ok" />
   </component>

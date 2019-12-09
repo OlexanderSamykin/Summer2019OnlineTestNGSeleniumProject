@@ -62,19 +62,23 @@ public class CalendarEvents12TestsCases {
         a.moveToElement(ThreeDots).build().perform();
 
         WebElement view = ThreeDots.findElement(By.xpath("//i[@class='fa-eye hide-text']"));
+        //a[@title='View']
         a.moveToElement(view).build().perform();
+        //BrowserUtils.wait(5);
+        wait.until(ExpectedConditions.visibilityOf(view));
         Assert.assertTrue(view.isDisplayed());
-        BrowserUtils.wait(5);
 
         WebElement edit = ThreeDots.findElement(By.xpath("//i[@class='fa-pencil-square-o hide-text']"));
+        //a[@title='Edit']
         a.moveToElement(edit).build().perform();
+        wait.until(ExpectedConditions.visibilityOf(edit));
         Assert.assertTrue(edit.isDisplayed());
-        BrowserUtils.wait(5);
 
         WebElement delete = ThreeDots.findElement(By.xpath("//i[@class='fa-trash-o hide-text']"));
+        //a[@title='Delete'])[3]
         a.moveToElement(delete).build().perform();
+        wait.until(ExpectedConditions.visibilityOf(delete));
         Assert.assertTrue(delete.isDisplayed());
-        BrowserUtils.wait(5);
 
     }
 
@@ -164,7 +168,7 @@ public class CalendarEvents12TestsCases {
         BrowserUtils.wait(5);
         StartingTime.click();
         List<WebElement> list = driver.findElements(By.xpath("//li[contains(@class,'ui-timepicker')]"));
-        for (int i = 0; i < list.size() - 2; i++) {
+        for (int i = 0; i < list.size() - 1; i++) {
             if (list.get(i).getText().equalsIgnoreCase("9:00 PM")) {
                 Assert.assertEquals(list.get(i).getText(), "9:00 PM", "expected result 9 pm");
                 list.get(i).click();
@@ -175,7 +179,7 @@ public class CalendarEvents12TestsCases {
         WebElement EndingTime = driver.findElement(By.xpath("//input[contains(@name,'time_selector_oro_calendar_event_form_end-uid')]"));
         EndingTime.click();
         List<WebElement> list1 = driver.findElements(By.xpath("//li[contains(@class,'ui-timepicker')]"));
-        for (int i = 0; i < list1.size() - 2; i++) {
+        for (int i = 0; i < list1.size() - 1; i++) {
             if (list1.get(i).getText().equalsIgnoreCase("10:00 PM")) {
                 Assert.assertEquals(list1.get(i).getText(), "10:00 PM", "expected result 10 pm");
                 list1.get(i).click();
