@@ -1,25 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eee0814d-aaae-4051-80a7-0e57b8c78675" name="Default Changelist" comment="ok">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/CreateCarPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/VehiclesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages1/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/homework2/Homework2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ncd_tests/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ncd_tests/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ncdpackage/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/vytrack/CreateCarTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/test1-2019-12-08-03-49.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/report1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/report2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="eee0814d-aaae-4051-80a7-0e57b8c78675" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/smoke_test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/ExcelUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/smokeTest-2019-12-09-16-37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/smokeTest-2019-12-09-17-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/smokeTest-2019-12-09-19-40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/smokeTest-2019-12-10-00-17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/smokeTest-2019-12-10-00-18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/smokeTest-2019-12-10-00-19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/smokeTest-2019-12-10-00-22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/smokeTest-2019-12-10-00-25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/test1-2019-12-09-15-52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/test1-2019-12-09-19-29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/test1-2019-12-09-19-41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/test1-2019-12-09-23-28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/test1-2019-12-09-23-33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/test1-2019-12-09-23-41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/test1-2019-12-09-23-42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/test1-2019-12-09-23-49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/test1-2019-12-10-00-21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/test1-2019-12-10-00-23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/smoke_test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/smoke_test_qa1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/smoke_test_qa2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/smoke_test_qa3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vytrack_testusers.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Summer2019OnlineTestNGSeleniumProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Summer2019OnlineTestNGSelenium.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/hw_vytrack_calendar_events_page/CalendarEvents12TestsCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/hw_vytrack_calendar_events_page/CalendarEvents12TestsCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CreateCarPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CreateCarPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages1/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ncd_tests/LoginTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ncd_tests/TestBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ncdpackage/TestBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/vytrack/CalendarEventsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/vytrack/CalendarEventsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/vytrack/CalendarEventsTests3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/vytrack/CreateCalendarEventTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/vytrack/CreateCalendarEventTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/vytrack/CreateCarTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/vytrack/CreateCarTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/vytrack/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/vytrack/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/vytrack/NewCalendarEventsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/vytrack/NewCalendarEventsTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/vytrack/SmokeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/vytrack/SmokeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/vytrack/TestBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/BrowserFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utils/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/TestBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/BrowserFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/BrowserFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/utils/BrowserUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/BrowserUtils.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,7 +108,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CalendarEvents12TestsCases.test1">
+  <component name="RunManager" selected="TestNG./Users/olexandersamykin/IdeaProjects/Summer2019OnlineTestNGSeleniumProject/testng.xml">
     <configuration name="NavigationPractice" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tests.day3.NavigationPractice" />
       <module name="Summer2019OnlineTestNGSelenium" />
@@ -226,7 +256,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateCarTests.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateCalendarEventTests.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Summer2019OnlineTestNGSelenium" />
       <extension name="coverage">
         <pattern>
@@ -235,26 +265,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.vytrack" />
-      <option name="MAIN_CLASS_NAME" value="tests.vytrack.CreateCarTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.vytrack.CreateCalendarEventTests" />
       <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Homework2.test5" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Summer2019OnlineTestNGSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.homework2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.homework2" />
-      <option name="MAIN_CLASS_NAME" value="tests.homework2.Homework2" />
-      <option name="METHOD_NAME" value="test5" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -298,24 +310,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Summer2019OnlineTestNGSelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.ncd_tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.ncd_tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ncd_tests.LoginTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NewCalendarEventsTests.test1" type="TestNG" nameIsGenerated="true">
       <module name="Summer2019OnlineTestNGSelenium" />
       <extension name="coverage">
@@ -334,13 +328,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/olexandersamykin/IdeaProjects/Summer2019OnlineTestNGSeleniumProject/smoke_test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Summer2019OnlineTestNGSelenium" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/smoke_test.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/olexandersamykin/IdeaProjects/Summer2019OnlineTestNGSeleniumProject/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Summer2019OnlineTestNGSelenium" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/olexandersamykin/IdeaProjects/Summer2019OnlineTestNGSeleniumProject/testng.xml" />
+        <item itemvalue="TestNG.CreateCalendarEventTests.test1" />
+        <item itemvalue="TestNG./Users/olexandersamykin/IdeaProjects/Summer2019OnlineTestNGSeleniumProject/smoke_test.xml" />
         <item itemvalue="TestNG.Homework2.test9" />
         <item itemvalue="TestNG.LoginTest.test1 (1)" />
-        <item itemvalue="TestNG.LoginTest.test1" />
-        <item itemvalue="TestNG.CreateCarTests.test1" />
-        <item itemvalue="TestNG.Homework2.test5" />
       </list>
     </recent_temporary>
   </component>
@@ -502,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575689629431</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="ok">
+      <created>1575860772719</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1575860772719</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

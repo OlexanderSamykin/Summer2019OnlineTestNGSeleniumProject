@@ -5,9 +5,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.LoginPage;
-//import tests.TestBase;
 import utils.Driver;
-
+import tests.TestBase;
 
 //we write extends TestBase to inherit @before and @after methods
 //this class will be dedicated to tests related to Login page only

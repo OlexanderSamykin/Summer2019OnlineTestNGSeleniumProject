@@ -1,5 +1,4 @@
 package pages;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriverException;
@@ -10,7 +9,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.BrowserUtils;
 import utils.Driver;
-
 //everything that is in common among pages
 //can go here
 //for example top menu elements don't belong to specific page
@@ -85,11 +83,15 @@ public class BasePage {
         wait.until(ExpectedConditions.elementToBeClickable(module));
 
         waitUntilLoaderMaskDisappear();
+
+//        BrowserUtils.clickWithWait(module); if click is not working well
         module.click(); //once we clicked on module, submodule should be visible
 
         WebElement subModule = Driver.get().findElement(By.xpath(subModuleLocator));
         wait.until(ExpectedConditions.visibilityOf(subModule));
         subModule.click();
+        //it waits until page is loaded and ajax calls are done
+        BrowserUtils.waitForPageToLoad(5);
     }
 
     /**

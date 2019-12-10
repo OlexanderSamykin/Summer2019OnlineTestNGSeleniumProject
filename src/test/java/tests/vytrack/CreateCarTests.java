@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 import pages.CreateCarPage;
 import pages.LoginPage;
 import pages.VehiclesPage;
+import tests.TestBase;
 
 public class CreateCarTests extends TestBase {
 

@@ -9,8 +9,6 @@ import utils.Driver;
 public class CreateCarPage extends BasePage {
 
     @FindBy(css = "[id^='custom_entity_type_LicensePlate']")
-            //(css = "[id^='custom_entity_type_LicensePlate']")
-    //(xpath = "//input[@name='custom_entity_type[LicensePlate]']")
     public WebElement licensePlateElement;
 
     @FindBy(name = "custom_entity_type[Driver]")
